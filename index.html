@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems</title>
+    <link rel="stylesheet" href="css\bootstrap.css"/>
+</head>
+<body>
+ <div class="container">
+     <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <center style="font-size: 38px;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;border-left: #353a3f 7px solid;border-right:  #353a3f 7px solid  ;color: #353a3f ;font-weight: bold;">Object Handling</center>
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-1"></div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Properties of Object:<br/>
+                <input type="text" id="get" size="20px" placeholder="Enter 1st Property" required><br/>
+                <p id="result" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="shoe()" id="b1" type="button" class="btn btn-dark">Show</button</p> 
+         </div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Delete Property:<br/>
+                <input onclick="mimi()" type="text" id="get2" size="20px" placeholder="Property for deletion" required><br/>
+                <p id="result2" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -15px;"></p><br/>
+                <p id="result2b" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -20px;"></p><br/>
+                <button style="margin-top: -75px;" onclick="shoed()" id="b2" type="button" class="btn btn-dark">Delete</button</p> 
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-1"></div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Length of Object:<br/>
+                <input type="text" id="get3" size="20px" placeholder="Enter name " required><br/>
+                <p id="result3" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="lengh()" id="b3" type="button" class="btn btn-dark">Show</button</p> 
+         </div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Check Reading Status:<br/>
+                <input type="text" id="get4" size="20px" placeholder="Enter title of book" required><br/>
+                <p id="resulthg" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -15px;">Please Choose from These { The Road Ahead, Walter Isaac, Mocking  }</p><br/>
+                <p id="result4" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -50px;"></p><br/>
+                
+                <button style="margin-top: -50px;" onclick="status()" id="b4" type="button" class="btn btn-dark">Check</button</p> 
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-1"></div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Volume of Cylinder:<br/>
+                <input type="number" id="get5" size="20px" placeholder="Enter Radius of cylinder" required><br/>
+                <p id="result5" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="obclass()" id="b5" type="button" class="btn btn-dark">Find</button</p> 
+         </div>
+
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Bubble Algorithm:<br/>
+                <input type="number" id="get6" size="20px" placeholder="Enter numbers" required><br/>
+                <p id="result6" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="algorithm()" id="b6" type="button" class="btn btn-dark">Sort</button</p> 
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-1"></div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">SubSets of String:<br/>
+                <input type="text" id="get7" size="20px" placeholder="Only Word of Length 3" required><br/>
+                <p id="result7" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="subSet()" id="b7" type="button" class="btn btn-dark">Subset</button</p> 
+         </div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">CLOCK:</p><br/>
+                <p id="result8" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -40px;"></p><br/>
+                <button style="margin-top: -65px;" onclick="but()" id="b8" type="button" class="btn btn-dark">Check Time</button</p> 
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-1"></div>
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Radius And Perimeter:<br/>
+                <input type="number" id="get9" size="20px" placeholder="Enter Radius of Circle" required><br/>
+                <p id="result9" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></p><br/>
+                <button style="margin-top: -65px;" onclick="areaPerimeter()" id="b9" type="button" class="btn btn-dark">Find</button</p> 
+         </div>
+
+         <div class="col-md-5 col-sm-12">
+            <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 28px;color:#353a3f
+        ;font-weight:normal;margin-top: 20px;">Object In Array:<br/>
+                <p id="result10" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -5px;"></p><br/>
+                <button style="margin-top: -65px;" onclick="sortObject()" id="b10" type="button" class="btn btn-dark">Sort</button</p> 
+         </div>
+     </div>
+ </div>
+   <script src='app.js'></script> 
+</body>
+</html>
